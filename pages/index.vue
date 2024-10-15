@@ -20,7 +20,10 @@
               <figure
                 class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
               >
-                <img src="/img/home/hero.png" class="h-full object-cover" />
+                <nuxt-img
+                  src="/img/home/hero.png"
+                  class="h-full object-cover"
+                />
               </figure>
               <h2
                 class="absolute bottom-0 left-0 z-20 flex w-full justify-center text-center text-blue"
@@ -105,7 +108,7 @@
           >
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
-              <img
+              <nuxt-img
                 src="/img/home/parte1.png"
                 class="h-full w-full object-cover"
               />

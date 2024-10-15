@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css', '~/assets/css/font.css'],
 
   // Módulos e plugins
-  modules: ['nuxt-svgo'],
+  modules: ['@nuxt/image', 'nuxt-svgo'],
   svgo: {
     autoImportPath: './assets/img/icons',
   },
