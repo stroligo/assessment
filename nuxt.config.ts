@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // Remove o baseURL ou deixe no padrão '/' para evitar confusões
-
   devtools: { enabled: true },
 
   // CSS
@@ -10,7 +8,7 @@ export default defineNuxtConfig({
   // Módulos e plugins
   modules: ['@nuxt/image', 'nuxt-svgo'],
   image: {
-    domains: ['localhost', 'assessment-rouge.vercel.app'], // Se necessário, adicionar domínios
+    domains: ['localhost', 'assessment-rouge.vercel.app'], // Adicione domínios conforme necessário
   },
   svgo: {
     autoImportPath: './assets/img/icons',
@@ -38,14 +36,6 @@ export default defineNuxtConfig({
     },
   },
 
-  // Nitro output - recomenda-se usar o diretório padrão 'dist' ou 'public'
-  nitro: {
-    output: {
-      publicDir: 'dist', // Altere para o padrão ou remova esta configuração
-    },
-  },
-
-  // Runtime config
   runtimeConfig: {},
 
   // Plugins
