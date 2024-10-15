@@ -9,21 +9,6 @@ const props = defineProps(['footer']);
       <div class="mb-6 flex w-full text-center md:hidden">
         <h2 class="text-blue-dark">Conheça mais sobre o nosso trabalho</h2>
       </div>
-      <!-- Slider Atualizacoes  -->
-      <SliderAtualizacoes :base="conteudo">
-        <div>
-          <div class="mb-6 hidden font-slab text-6xl font-bold text-blue-dark md:flex">
-            Conheça mais sobre o nosso trabalho
-          </div>
-
-          <p class="hidden text-xl text-gray-80 md:flex">
-            Aliquam eu varius massa, ac malesuada magna. Integer ex mauris, viverra a
-            iaculis eget, venenatis dignissim purus. Sed lobortis rhoncus fringilla. Fusce
-            efficitur orci nec leo consectetur, a mollis sapien ullamcorper. Quisque
-            tincidunt finibus finibus..
-          </p>
-        </div>
-      </SliderAtualizacoes>
     </div>
   </section>
   <footer>
@@ -38,7 +23,11 @@ const props = defineProps(['footer']);
             <!-- Logos -->
             <div class="flex w-full gap-4 divide-x md:gap-8">
               <div class="flex w-3/12 items-center justify-center">
-                <SvgoLogo class="w-[80px] md:w-[120px]" :fontControlled="false" filled />
+                <SvgoLogo
+                  class="w-[80px] md:w-[120px]"
+                  :fontControlled="false"
+                  filled
+                />
               </div>
               <div class="flex items-center pl-4 md:w-9/12 md:pl-8">
                 <SvgoPanorama
@@ -53,15 +42,16 @@ const props = defineProps(['footer']);
               <div class="flex flex-col gap-3">
                 <div class="font-slab text-green-10">Equipe editorial</div>
                 <div>
-                  Anna Carolina Cardoso, Carolina Motta, Claudia Bezerra, Michele G. da
-                  Costa e Roberta Costa Marques
+                  Anna Carolina Cardoso, Carolina Motta, Claudia Bezerra,
+                  Michele G. da Costa e Roberta Costa Marques
                 </div>
               </div>
               <!--Colaboradores -->
               <div class="flex flex-col gap-3">
                 <div class="font-slab text-green-10">Colaboradores</div>
                 <div>
-                  Alfredo Scaff, Karina de Cássia Braga Ribeiro e Rejane de Souza Reis
+                  Alfredo Scaff, Karina de Cássia Braga Ribeiro e Rejane de
+                  Souza Reis
                 </div>
               </div>
             </div>
@@ -102,10 +92,13 @@ const props = defineProps(['footer']);
             </div>
           </div>
           <!-- Col 2 -->
-          <div class="flex justify-between gap-6 md:w-6/12 md:justify-normal md:gap-16">
+          <div
+            class="flex justify-between gap-6 md:w-6/12 md:justify-normal md:gap-16"
+          >
             <div class="flex w-full flex-col gap-8">
               <div class="text-lg">
-                Agradecimentos especiais aos especialistas lorem ipsum dolor set amet
+                Agradecimentos especiais aos especialistas lorem ipsum dolor set
+                amet
               </div>
               <div class="flex gap-4 md:flex-row">
                 <div class="flex w-1/2 flex-col gap-4">
@@ -115,8 +108,8 @@ const props = defineProps(['footer']);
                       Sima Ferman
                     </div>
                     <div class="text-green-10">
-                      Chefe do Serviço de Oncologia Pediátrica Instituto Nacional de
-                      Câncer- INCA
+                      Chefe do Serviço de Oncologia Pediátrica Instituto
+                      Nacional de Câncer- INCA
                     </div>
                   </div>
                   <!-- Colaborador 2 -->
@@ -143,8 +136,8 @@ const props = defineProps(['footer']);
                       Sima Ferman
                     </div>
                     <div class="text-green-10">
-                      Chefe do Serviço de Oncologia Pediátrica Instituto Nacional de
-                      Câncer- INCA
+                      Chefe do Serviço de Oncologia Pediátrica Instituto
+                      Nacional de Câncer- INCA
                     </div>
                   </div>
                   <!-- Colaborador 5 -->
@@ -173,8 +166,8 @@ const props = defineProps(['footer']);
                       Sima Ferman
                     </div>
                     <div class="text-green-10">
-                      Chefe do Serviço de Oncologia Pediátrica Instituto Nacional de
-                      Câncer- INCA
+                      Chefe do Serviço de Oncologia Pediátrica Instituto
+                      Nacional de Câncer- INCA
                     </div>
                   </div>
                   <!-- Colaborador 2 -->
@@ -205,13 +198,17 @@ const props = defineProps(['footer']);
     <!--  CopyRight Footer -->
     <div class="bg-blue-70 text-white">
       <div class="container mx-auto px-5 py-2.5 md:px-0">
-        <div class="flex flex-wrap justify-center gap-4 md:flex-row md:justify-between">
+        <div
+          class="flex flex-wrap justify-center gap-4 md:flex-row md:justify-between"
+        >
           <div>2024 © Instituto Desiderata</div>
           <div>Política de privacidade</div>
           <div>
             Design e creative code por
             <a class="https://cafe.art.br/"
-              ><button class="font-bold hover:text-orange">Cafe.art.br</button></a
+              ><button class="font-bold hover:text-orange">
+                Cafe.art.br
+              </button></a
             >
           </div>
         </div>
@@ -223,7 +220,16 @@ const props = defineProps(['footer']);
 export default {
   data() {
     return {
-      conteudo: ['item1', 'item2', 'item3', 'item4', 'item1', 'item2', 'item3', 'item4'],
+      conteudo: [
+        'item1',
+        'item2',
+        'item3',
+        'item4',
+        'item1',
+        'item2',
+        'item3',
+        'item4',
+      ],
     };
   },
   computed: {

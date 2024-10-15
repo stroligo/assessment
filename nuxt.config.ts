@@ -11,6 +11,10 @@ export default defineNuxtConfig({
   image: {
     inject: true,
     format: ['webp'],
+    provider: 'static',
+    static: {
+      baseURL: '/public/img',
+    },
   },
 
   postcss: {
@@ -28,7 +32,7 @@ export default defineNuxtConfig({
       titleTemplate: '%s - Desiderata',
       meta: [
         { name: 'description', content: '-' },
-        { property: 'og:site_name', content: 'Desiderata' },
+        { property: 'og:site_name', content: 'Assessment' },
         { property: 'og:image', content: '/compartilhamento.jpg' },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -47,7 +51,7 @@ export default defineNuxtConfig({
     },
   },
 
-  plugins: ['~/plugins/splide.js', '~/plugins/squircle.js'],
+  plugins: ['~/plugins/squircle.js'],
 
   compatibilityDate: '2024-07-18',
 });
