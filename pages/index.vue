@@ -7,14 +7,20 @@
       <div class="container relative mx-auto px-5 pb-40 md:px-0">
         <div class="absolute left-0 top-8">
           <div class="mb-4 text-sm text-gray">Realização:</div>
-          <SvgoDesideratahome class="w-[128px]" :fontControlled="false" filled />
+          <SvgoDesideratahome
+            class="w-[128px]"
+            :fontControlled="false"
+            filled
+          />
         </div>
         <div class="flex items-center justify-center md:pt-10">
           <div class="flex flex-col pt-12 md:w-8/12 md:items-center md:pt-0">
             <div class="relative flex w-full justify-center">
               <!-- Figure1 -->
-              <figure class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none">
-                <img :src="`${baseURL}img/home/hero.png`" class="h-full object-cover" />
+              <figure
+                class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
+              >
+                <img :src="`img/home/hero.png`" class="h-full object-cover" />
               </figure>
               <h2
                 class="absolute bottom-0 left-0 z-20 flex w-full justify-center text-center text-blue"
@@ -24,14 +30,15 @@
             </div>
 
             <div class="mt-6 text-center text-lg text-blue-dark">
-              O Instituto Desiderata acredita que o acesso à informação de qualidade é
-              fundamental para guiar estratégias em prol do aumento das chances de cura
-              para crianças e adolescentes brasileiros. Neste sentido, temos o compromisso
-              de elaborar e publicar bienalmente dados relativos ao câncer infantojuvenil
-              neste Panorama da Oncologia Pediátrica, com a expectativa de que este seja
-              um instrumento que oriente a formulação de políticas públicas equânimes,
-              visando a melhores resultados e maiores chances de cura para todas as
-              crianças e adolescentes brasileiros.
+              O Instituto Desiderata acredita que o acesso à informação de
+              qualidade é fundamental para guiar estratégias em prol do aumento
+              das chances de cura para crianças e adolescentes brasileiros.
+              Neste sentido, temos o compromisso de elaborar e publicar
+              bienalmente dados relativos ao câncer infantojuvenil neste
+              Panorama da Oncologia Pediátrica, com a expectativa de que este
+              seja um instrumento que oriente a formulação de políticas públicas
+              equânimes, visando a melhores resultados e maiores chances de cura
+              para todas as crianças e adolescentes brasileiros.
             </div>
           </div>
         </div>
@@ -101,7 +108,7 @@
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
               <img
-                :src="`${baseURL}img/home/parte1.png`"
+                :src="`img/home/parte1.png`"
                 class="h-full w-full object-cover"
               />
             </figure>
@@ -150,11 +157,13 @@
                   class="flex flex-col gap-3 font-slab text-xl font-bold leading-none text-orange md:text-2xl"
                 >
                   <div class="text-3xl md:text-5xl">7.930</div>
-                  <div class="">novos casos de câncer infantojuvenil no Brasil</div>
+                  <div class="">
+                    novos casos de câncer infantojuvenil no Brasil
+                  </div>
                 </div>
                 <div>
-                  Taxa de incidência de <strong>134,8 novos casos</strong> a cada 1 milhão
-                  de crianças e adolescentes.
+                  Taxa de incidência de <strong>134,8 novos casos</strong> a
+                  cada 1 milhão de crianças e adolescentes.
                 </div>
               </UiHighlight>
             </div>
@@ -233,7 +242,9 @@
                 </div>
                 <div class="flex flex-row items-center gap-2 text-sm text-gray">
                   <span class="h-3 w-3 rounded-full bg-gray"></span>
-                  <span class="whitespace-nowrap">Neoplasias não especificadas</span>
+                  <span class="whitespace-nowrap"
+                    >Neoplasias não especificadas</span
+                  >
                 </div>
               </div>
             </div>
@@ -243,21 +254,29 @@
                 <ChartDonut
                   titulo="Meninas"
                   :legendas="[
-                    { texto: 'Leucemias e linfomas', valor: 34.6, cor: 'primary' },
+                    {
+                      texto: 'Leucemias e linfomas',
+                      valor: 34.6,
+                      cor: 'primary',
+                    },
                     {
                       texto: 'Tumores do sistema nervoso central',
                       valor: 39.5,
                       cor: 'blue',
                     },
                     { texto: 'Tumores sólidos', valor: 19.5, cor: 'orange' },
-                    { texto: 'Neoplasias não especificadas', valor: 6.5, cor: 'gray' },
+                    {
+                      texto: 'Neoplasias não especificadas',
+                      valor: 6.5,
+                      cor: 'gray',
+                    },
                   ]"
                 >
                   <figure
                     class="relative flex max-h-[400px] items-center justify-center overflow-clip md:z-10 md:max-h-none"
                   >
                     <img
-                      :src="`${baseURL}img/chart/pizzaGirl.svg`"
+                      :src="`img/chart/pizzaGirl.svg`"
                       class="h-full object-cover"
                     />
                   </figure>
@@ -270,7 +289,7 @@
                     class="relative flex h-full items-center justify-center overflow-clip md:z-10 md:max-h-none"
                   >
                     <img
-                      :src="`${baseURL}img/chart/pizzaAll.svg`"
+                      :src="`img/chart/pizzaAll.svg`"
                       class="h-full object-cover"
                     />
                   </figure>
@@ -281,21 +300,29 @@
                 <ChartDonut
                   titulo="Meninos"
                   :legendas="[
-                    { texto: 'Leucemias e linfomas', valor: 34.6, cor: 'primary' },
+                    {
+                      texto: 'Leucemias e linfomas',
+                      valor: 34.6,
+                      cor: 'primary',
+                    },
                     {
                       texto: 'Tumores do sistema nervoso central',
                       valor: 39.5,
                       cor: 'blue',
                     },
                     { texto: 'Tumores sólidos', valor: 19.5, cor: 'orange' },
-                    { texto: 'Neoplasias não especificadas', valor: 6.5, cor: 'gray' },
+                    {
+                      texto: 'Neoplasias não especificadas',
+                      valor: 6.5,
+                      cor: 'gray',
+                    },
                   ]"
                 >
                   <figure
                     class="relative flex max-h-[400px] items-center justify-center overflow-clip md:z-10 md:max-h-none"
                   >
                     <img
-                      :src="`${baseURL}img/chart/pizzaBoy.svg`"
+                      :src="`img/chart/pizzaBoy.svg`"
                       class="h-full object-cover"
                     />
                   </figure>
@@ -309,7 +336,11 @@
         <!-- Bloco - Mortalidade -->
         <!-- FeatureEspecialista -->
         <div class="flex flex-col gap-8">
-          <FeatureSectionTitle parte="Parte 2" titulo="Mortalidade" id="parte2" />
+          <FeatureSectionTitle
+            parte="Parte 2"
+            titulo="Mortalidade"
+            id="parte2"
+          />
 
           <FeatureEspecialista
             titulo="A importância do uso do registro hospitalar de câncer na gestão das políticas públicas de câncer infantojuvenil."
@@ -324,7 +355,7 @@
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
               <img
-                :src="`${baseURL}img/home/parte2.png`"
+                :src="`img/home/parte2.png`"
                 class="h-full w-full object-cover"
               />
             </figure>
@@ -434,7 +465,9 @@
                   </div>
                 </div>
                 <div class="text-white">
-                  <div class="text-white">Média de <b>2.581</b> óbitos por ano</div>
+                  <div class="text-white">
+                    Média de <b>2.581</b> óbitos por ano
+                  </div>
                 </div>
               </UiHighlight>
             </div>
@@ -569,9 +602,11 @@
           </div>
           <!-- ChartLine  -->
           <div class="flex flex-col gap-8 md:flex-row">
-            <figure class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none">
+            <figure
+              class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
+            >
               <img
-                :src="`${baseURL}img/chart/chartline.svg`"
+                :src="`img/chart/chartline.svg`"
                 class="h-full object-cover"
               />
             </figure>
@@ -600,7 +635,7 @@
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
               <img
-                :src="`${baseURL}img/home/parte3.png`"
+                :src="`img/home/parte3.png`"
                 class="h-full w-full object-cover"
               />
             </figure>
@@ -649,7 +684,9 @@
                   >
                     77
                   </div>
-                  <div class="-mt-1 font-slab text-xl font-bold text-orange md:text-2xl">
+                  <div
+                    class="-mt-1 font-slab text-xl font-bold text-orange md:text-2xl"
+                  >
                     serviços habilitados em oncologia pediátrica no Brasil
                   </div>
                   <div class="">
@@ -658,14 +695,18 @@
                   </div>
                 </div>
                 <div>
-                  <div class="font-slab text-xl font-bold text-orange md:text-2xl">
+                  <div
+                    class="font-slab text-xl font-bold text-orange md:text-2xl"
+                  >
                     74,62%
                   </div>
                   <!-- Barra -->
                   <div>
                     <ChartBarSingle valor="55" />
                   </div>
-                  <div class="leading-none">Cobertura de atenção básica à saúde</div>
+                  <div class="leading-none">
+                    Cobertura de atenção básica à saúde
+                  </div>
                 </div>
               </UiHighlight>
             </div>
@@ -736,7 +777,9 @@
                   >
                     6,6
                   </div>
-                  <div class="-mt-1 font-slab text-xl font-bold text-orange md:text-2xl">
+                  <div
+                    class="-mt-1 font-slab text-xl font-bold text-orange md:text-2xl"
+                  >
                     médicos oncologistas pediátricos
                   </div>
                   <div class="">
@@ -744,7 +787,9 @@
                   </div>
                 </div>
                 <div>
-                  <div class="font-slab text-xl font-bold text-orange md:text-2xl">
+                  <div
+                    class="font-slab text-xl font-bold text-orange md:text-2xl"
+                  >
                     85,9%
                   </div>
                   <!-- Barra -->
@@ -817,8 +862,18 @@
                     legend: 'Oncologia Ped.',
                     color: 'default',
                   },
-                  { height: 69, value: 50, legend: 'Hematologia', color: 'blue' },
-                  { height: 150, value: 151, legend: 'Não habilitado', color: 'orange' },
+                  {
+                    height: 69,
+                    value: 50,
+                    legend: 'Hematologia',
+                    color: 'blue',
+                  },
+                  {
+                    height: 150,
+                    value: 151,
+                    legend: 'Não habilitado',
+                    color: 'orange',
+                  },
                 ]"
               />
             </div>
@@ -833,8 +888,18 @@
                     legend: 'Oncologia Ped.',
                     color: 'default',
                   },
-                  { height: 69, value: 50, legend: 'Hematologia', color: 'blue' },
-                  { height: 150, value: 151, legend: 'Não habilitado', color: 'orange' },
+                  {
+                    height: 69,
+                    value: 50,
+                    legend: 'Hematologia',
+                    color: 'blue',
+                  },
+                  {
+                    height: 150,
+                    value: 151,
+                    legend: 'Não habilitado',
+                    color: 'orange',
+                  },
                 ]"
               />
             </div>
@@ -849,8 +914,18 @@
                     legend: 'Oncologia Ped.',
                     color: 'default',
                   },
-                  { height: 69, value: 50, legend: 'Hematologia', color: 'blue' },
-                  { height: 150, value: 151, legend: 'Não habilitado', color: 'orange' },
+                  {
+                    height: 69,
+                    value: 50,
+                    legend: 'Hematologia',
+                    color: 'blue',
+                  },
+                  {
+                    height: 150,
+                    value: 151,
+                    legend: 'Não habilitado',
+                    color: 'orange',
+                  },
                 ]"
               />
             </div>
@@ -1006,7 +1081,9 @@
                   </div>
                   <ChartBarSingle valor="5.5" />
 
-                  <div class="font-slab text-xl font-bold text-orange md:text-2xl">
+                  <div
+                    class="font-slab text-xl font-bold text-orange md:text-2xl"
+                  >
                     não iniciaram o tratamento no Brasil
                   </div>
                 </div>
@@ -1057,9 +1134,11 @@
           <!-- GraficoArea -->
           <div class="flex flex-col gap-8 md:flex-row">
             <div class="flex w-full items-center justify-center md:w-6/12">
-              <figure class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none">
+              <figure
+                class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
+              >
                 <img
-                  :src="`${baseURL}img/chart/chartring.svg`"
+                  :src="`img/chart/chartring.svg`"
                   class="h-full object-cover"
                 />
               </figure>
@@ -1085,7 +1164,8 @@
                   },
                   {
                     value: 34,
-                    legend: 'Doença avançada, falta de condições clínicas ou outras',
+                    legend:
+                      'Doença avançada, falta de condições clínicas ou outras',
                   },
                   {
                     value: 20,
@@ -1155,7 +1235,7 @@
                   class="relative flex max-h-[400px] items-center justify-center overflow-clip md:z-10 md:max-h-none"
                 >
                   <img
-                    :src="`${baseURL}img/chart/chartBlock.svg`"
+                    :src="`img/chart/chartBlock.svg`"
                     class="h-full object-cover"
                   />
                 </figure>
@@ -1184,7 +1264,7 @@
                   class="relative flex max-h-[400px] items-center justify-center overflow-clip md:z-10 md:max-h-none"
                 >
                   <img
-                    :src="`${baseURL}img/chart/chartBlock.svg`"
+                    :src="`img/chart/chartBlock.svg`"
                     class="h-full object-cover"
                   />
                 </figure>
@@ -1213,7 +1293,7 @@
                   class="relative flex max-h-[400px] items-center justify-center overflow-clip md:z-10 md:max-h-none"
                 >
                   <img
-                    :src="`${baseURL}img/chart/chartBlock.svg`"
+                    :src="`img/chart/chartBlock.svg`"
                     class="h-full object-cover"
                   />
                 </figure>
@@ -1259,8 +1339,8 @@
                 >
                   <div class="text-3xl md:text-5xl">7,3%</div>
                   <div class="">
-                    das crianças e adolescentes buscaram atendimento fora da região de sua
-                    residência
+                    das crianças e adolescentes buscaram atendimento fora da
+                    região de sua residência
                   </div>
                 </div>
               </UiHighlight>
@@ -1322,8 +1402,8 @@
                 >
                   <div class="text-3xl md:text-5xl">7,3%</div>
                   <div class="">
-                    das crianças e adolescentes buscaram atendimento fora da região de sua
-                    residência
+                    das crianças e adolescentes buscaram atendimento fora da
+                    região de sua residência
                   </div>
                 </div>
               </UiHighlight>
@@ -1392,7 +1472,7 @@
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
               <img
-                :src="`${baseURL}img/home/parte4.png`"
+                :src="`img/home/parte4.png`"
                 class="h-full w-full object-cover"
               />
             </figure>
@@ -1478,9 +1558,11 @@
           <!-- GraficoArea -->
           <div class="flex flex-col gap-8 md:flex-row">
             <div class="w-full">
-              <figure class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none">
+              <figure
+                class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
+              >
                 <img
-                  :src="`${baseURL}img/chart/chartline2.svg`"
+                  :src="`img/chart/chartline2.svg`"
                   class="h-full object-cover"
                 />
               </figure>
@@ -1502,9 +1584,11 @@
           <!-- GraficoArea -->
           <div class="flex flex-col gap-8 md:flex-row">
             <div class="w-full">
-              <figure class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none">
+              <figure
+                class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
+              >
                 <img
-                  :src="`${baseURL}img/chart/chartline3.svg`"
+                  :src="`img/chart/chartline3.svg`"
                   class="h-full object-cover"
                 />
               </figure>
@@ -1584,7 +1668,8 @@
                   },
                   {
                     value: 34,
-                    legend: 'Doença avançada, falta de condições clínicas ou outras',
+                    legend:
+                      'Doença avançada, falta de condições clínicas ou outras',
                   },
                   {
                     value: 20,
@@ -1624,7 +1709,8 @@
                   },
                   {
                     value: 34,
-                    legend: 'Doença avançada, falta de condições clínicas ou outras',
+                    legend:
+                      'Doença avançada, falta de condições clínicas ou outras',
                   },
                   {
                     value: 20,
@@ -1659,7 +1745,16 @@ export default {
   data() {
     return {
       depoimento: data.depoimento,
-      conteudo: ['item1', 'item2', 'item3', 'item4', 'item1', 'item2', 'item3', 'item4'],
+      conteudo: [
+        'item1',
+        'item2',
+        'item3',
+        'item4',
+        'item1',
+        'item2',
+        'item3',
+        'item4',
+      ],
     };
   },
   methods: {},
