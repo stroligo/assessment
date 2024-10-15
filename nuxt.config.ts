@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // Remove o baseURL ou deixe no padrão '/' para evitar confusões
-  app: {
-    baseURL: '/', // ou remova completamente se não for necessário
-  },
 
   devtools: { enabled: true },
 
@@ -12,6 +9,9 @@ export default defineNuxtConfig({
 
   // Módulos e plugins
   modules: ['@nuxt/image', 'nuxt-svgo'],
+  image: {
+    domains: ['localhost', 'assessment-rouge.vercel.app'], // Se necessário, adicionar domínios
+  },
   svgo: {
     autoImportPath: './assets/img/icons',
   },
