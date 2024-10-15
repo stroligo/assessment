@@ -2,19 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css', '~/assets/css/font.css'],
-  modules: ['@nuxt/image', 'nuxt-svgo'],
+  modules: ['nuxt-svgo'],
   router: {},
   svgo: {
     autoImportPath: './assets/img/icons',
-  },
-
-  image: {
-    inject: true,
-    format: ['webp'],
-    provider: 'static',
-    static: {
-      baseURL: '/assets/img/',
-    },
   },
 
   postcss: {
