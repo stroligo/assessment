@@ -29,9 +29,9 @@ module.exports = {
         'gray-70': '#737373', // USADA
         'gray-80': '#575756',
         'gray-90': '#40403F', // USADA
-        blue: '#0083CA',
-        'blue-light': '#B1D6E4',
-        'blue-dark': '#042B60',
+        blue: '#0083CA', // USADA
+        'blue-light': '#B1D6E4', // USADA
+        'blue-dark': '#042B60', // USADA
         teal: '#3C8BA0', // USADA
         'blue-5': '#DCF2FE',
         'blue-20': '#97D9FC',
@@ -58,7 +58,6 @@ module.exports = {
       },
       dropShadow: {
         default: '6px 6px 0px 0px #000',
-        /*    teste: '4px 4px 4px rgba(230, 4, 4, 0.8)', */
       },
 
       borderRadius: {
@@ -83,88 +82,6 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms')({
       strategy: 'base', // Estilos gerais
-    }),
-
-    // Definindo o plugin squircle antes
-    plugin(function ({ addUtilities, theme }) {
-      const spacing = theme('spacing');
-      const directions = [
-        'top-left',
-        'top-right',
-        'bottom-left',
-        'bottom-right',
-      ];
-      const utilities = {};
-
-      // Função para converter rem para px
-      const remToPx = (rem) => {
-        const remValue = parseFloat(rem);
-        return `${remValue * 16}px`;
-      };
-
-      /* Squircle - Default */
-      // Gerar classes para squircle em todos os lados
-      Object.keys(spacing).forEach((size) => {
-        const value = spacing[size];
-        const valueInPx = remToPx(value);
-        utilities[`.squircle-${size}`] = {
-          'mask-image': 'paint(squircle)',
-          'border-radius': valueInPx,
-          '--squircle-radius': valueInPx,
-        };
-      });
-      // Gerar classes para squircle com direção específica
-      directions.forEach((direction) => {
-        Object.keys(spacing).forEach((size) => {
-          const value = spacing[size];
-          const valueInPx = remToPx(value);
-          utilities[`.squircle-${direction}-${size}`] = {
-            'mask-image': 'paint(squircle)',
-            [`border-${direction}-radius`]: valueInPx,
-            [`--squircle-radius-${direction}`]: valueInPx,
-          };
-        });
-      });
-      /* Squircle - Shadow */
-      // Gerar classe para sombra drop-shadow específica
-      Object.keys(spacing).forEach((size) => {
-        const value = spacing[size];
-        const valueInPx = remToPx(value);
-        utilities[`.squircle-shadow-${size}`] = {
-          background: 'paint(squircle)',
-          ' --squircle-fill': '#fff',
-          'border-radius': valueInPx,
-          '--squircle-radius': valueInPx,
-          filter: 'drop-shadow(0px 16px 38px rgba(115, 115, 115, 0.15))',
-        };
-      });
-      // Gerar classes para sombra drop-shadow com direção específica
-      directions.forEach((direction) => {
-        Object.keys(spacing).forEach((size) => {
-          const value = spacing[size];
-          const valueInPx = remToPx(value);
-          utilities[`.squircle-shadow-${direction}-${size}`] = {
-            background: 'paint(squircle)',
-            ' --squircle-fill': '#fff',
-            [`border-${direction}-radius`]: valueInPx,
-            [`--squircle-radius-${direction}`]: valueInPx,
-            filter: 'drop-shadow(0px 16px 38px rgba(115, 115, 115, 0.15))',
-          };
-        });
-      });
-
-      // Adiciona classes para preenchimento de cor em caso de sombra
-      const colors = theme('colors');
-      // Cores do Tailwind
-      Object.keys(colors).forEach((colorKey) => {
-        if (typeof colors[colorKey] === 'string') {
-          utilities[`.squircle-color-${colorKey}`] = {
-            '--squircle-fill': colors[colorKey],
-          };
-        }
-      });
-
-      addUtilities(utilities, ['responsive', 'hover', 'focus', 'active']);
     }),
 
     // Utilitários Basicos e Drop Shadow Teste depois

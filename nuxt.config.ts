@@ -38,9 +38,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {},
 
-  // Plugins
-  plugins: ['~/plugins/squircle.js'],
-
   // Compatibilidade
   compatibilityDate: '2024-07-18',
 });

@@ -75,3 +75,89 @@ The dataset might look like the following:
 ### Values
 
 For each dimension, there are several possible elements. For example:
+
+---
+
+# Avaliação (PT_Br)
+
+## Objetivo
+
+Criar uma pequena aplicação web usando JavaScript/TypeScript e qualquer biblioteca/tecnologia de sua escolha. A aplicação visualizará uma tabela populada com dados e incluirá uma seção de filtragem. A tabela deve ter cabeçalhos de linha e coluna hierárquicos que possam ser recolhidos/ampliados.
+
+## Requisitos
+
+### Funcionalidade Principal
+
+1. **Visualização de Dados**:
+
+   - Exibir uma tabela com cabeçalhos de coluna e linha hierárquicos.
+   - Os cabeçalhos devem suportar a funcionalidade de recolher/ampliar:
+     - **Horizontalmente** para colunas.
+     - **Verticalmente** para linhas.
+   - Os estados recolhidos/ampliados devem ser indicados usando ícones (setas, mais/menos, etc.).
+   - Os valores da tabela devem reagir dinamicamente quando os cabeçalhos são recolhidos/ampliados. Os valores são fornecidos previamente e não requerem cálculo.
+
+2. **Múltiplos Cabeçalhos** (Opcional):
+   - A tabela pode incluir múltiplos cabeçalhos de linha (por exemplo, artigos, unidades de medida).
+   - Concentre-se na tarefa de colapsabilidade se múltiplos cabeçalhos não forem implementados.
+
+### Área de Filtragem
+
+1. **Filtros em Dropdown**:
+
+   - Implementar filtros em dropdown para as colunas/dimensões.
+   - Os filtros devem seguir a estrutura: `Nome da Dimensão` -> `Seleção do Elemento` (por exemplo, `"Versão"` -> `"Real"`).
+   - Incluir pelo menos **duas seleções por filtro**.
+   - Na mudança do filtro, atualizar os valores da tabela dinamicamente.
+
+2. **Interatividade do Filtro**:
+   - Os dropdowns devem refletir diferentes estados visuais (por exemplo, clicado, destacado).
+   - Destacar o elemento selecionado com uma cor ou ícone distinto.
+
+### Estrutura e Manipulação de Dados
+
+1. **Entrada de Dados**:
+
+   - Os dados devem ser fornecidos via JSON. O JSON deve conter o conteúdo da tabela e do filtro. Por exemplo:
+     - Seções para linhas, colunas e dimensões/elementos de filtro.
+     - Uma seção de dados para valores.
+
+2. **Dimensão e Hierarquia**:
+
+   - Cada dimensão/elemento no JSON deve ser marcado para indicar sua posição e nível hierárquico.
+
+3. **Funções de Dados Simulados**:
+   - O conjunto de dados completo **não deve ser pré-carregado**.
+   - Implementar uma função `retrieveData(...)` para buscar valores codificados de uma função simulada.
+   - Usar a função `filterChanged(...)` (ou modificar `retrieveData(...)`) para atualizar os dados quando os filtros mudam.
+   - Implementar uma função `collapseExpand(...)` (ou modificar `retrieveData(...)`) para atualizar a tabela quando um elemento é recolhido/ampliado.
+
+### Estilos da Tabela
+
+1. **Estilos**:
+   - Implementar **pelo menos dois estilos de tabela**:
+     - Exemplo 1: Linhas listradas (como mostrado na imagem).
+     - Exemplo 2: Fundo branco simples com bordas pretas.
+   - Incluir um botão para alternar entre estilos.
+
+### Recursos Adicionais (Opcional)
+
+- Sinta-se à vontade para adicionar visualizações extras, como efeitos de hover ou ícones personalizados.
+- Personalize a tabela e os filtros com suas escolhas de design exclusivas.
+
+## Exemplo de Dados
+
+O conjunto de dados pode ter a seguinte aparência:
+
+### Dimensões
+
+- **Artigo**: {Todos os Artigos, Bicicletas, Motocicletas, ...}
+- **Região**: {Europa, Grã-Bretanha, Alemanha, ...}
+- **Entidade Legal**: {11, 12, 13, Todas as Entidades}
+- **Versão**: {Real, Orçamento}
+- **Moeda**: {LC, USD, EUR}
+- **Medida**: {Unidades, Preço Unitário, Receita Bruta}
+
+### Valores
+
+Para cada dimensão, há vários elementos possíveis. Por exemplo:
