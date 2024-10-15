@@ -1,17 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // Remove o baseURL ou deixe no padrão '/' para evitar confusões
   app: {
-    baseURL: '/public/',
+    baseURL: '/', // ou remova completamente se não for necessário
   },
 
   devtools: { enabled: true },
+
+  // CSS
   css: ['~/assets/css/main.css', '~/assets/css/font.css'],
+
+  // Módulos e plugins
   modules: ['nuxt-svgo'],
-  router: {},
   svgo: {
     autoImportPath: './assets/img/icons',
   },
 
+  // PostCSS e Tailwind
   postcss: {
     plugins: {
       'postcss-import': {},
@@ -21,6 +26,7 @@ export default defineNuxtConfig({
     },
   },
 
+  // Head e Metatags
   app: {
     head: {
       titleTemplate: 'Assessment',
@@ -32,15 +38,19 @@ export default defineNuxtConfig({
     },
   },
 
+  // Nitro output - recomenda-se usar o diretório padrão 'dist' ou 'public'
   nitro: {
     output: {
-      publicDir: '~/build',
+      publicDir: 'dist', // Altere para o padrão ou remova esta configuração
     },
   },
 
+  // Runtime config
   runtimeConfig: {},
 
+  // Plugins
   plugins: ['~/plugins/squircle.js'],
 
+  // Compatibilidade
   compatibilityDate: '2024-07-18',
 });
