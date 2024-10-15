@@ -21,7 +21,7 @@
                 class="relative max-h-[400px] overflow-clip md:z-10 md:max-h-none"
               >
                 <img
-                  src="assets/img/home/hero.png"
+                  src="~/assets/img/home/hero.png"
                   class="h-full object-cover"
                 />
               </figure>
@@ -99,7 +99,7 @@
           <!-- FeatureEspecialista -->
           <FeatureEspecialista
             titulo="A situação do câncer infantojuvenil no Brasil, a qualificação do diagnóstico."
-            imagemPerfil="assets/img/home/sima.jpg"
+            imagemPerfil="~/assets/img/home/sima.jpg"
             nomePerfil="Sima Ferman"
             cargoPerfil="Chefe do Serviço de Oncologia Pediátrica Instituto Nacional de Câncer - INCA"
             texto="<p>Atualmente, um grande número de crianças e adolescentes com câncer podem ser curadas com o diagnóstico precoce e tratamento em centros especializados. O progresso no tratamento do câncer foi mais evidente nos países de alta renda, onde as taxas de sobrevida em 5 anos estão em 80%, enquanto em países de baixa e média renda estas taxas ainda podem ser melhoradas. Muitos fatores são responsáveis por estas diferenças e constituem desafios a serem vencidos: dificuldade de acesso a diagnóstico e tratamento, doença avançada ao adquirir o diagnóstico, dificuldades financeiras e abandono de tratamento.</p>
@@ -110,7 +110,7 @@
             <!-- Slot -->
             <figure class="relative w-full overflow-clip md:z-10">
               <img
-                src="assets/img/home/parte1.png"
+                src="~/assets/img/home/parte1.png"
                 class="h-full w-full object-cover"
               />
             </figure>

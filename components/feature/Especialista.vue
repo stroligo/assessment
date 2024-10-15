@@ -14,7 +14,7 @@
               class="filtro-profile relative h-[72px] min-w-[72px] squircle-8 squircle-bottom-left-2"
             >
               <img
-                :src="`${baseURL}${imagemPerfil}`"
+                :src="`${imagemPerfil}`"
                 class="h-full w-full object-cover"
               />
             </figure>
@@ -135,9 +135,6 @@ export default {
           return this.texto;
         }
       }
-    },
-    baseURL() {
-      return this.$config.public.baseUrl;
     },
   },
   methods: {
