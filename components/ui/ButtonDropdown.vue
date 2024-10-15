@@ -81,14 +81,14 @@ export default {
   }
 }
 #dropdown {
-  @apply absolute -bottom-2 left-0 z-40 w-full translate-y-full opacity-0 transition-opacity duration-500 md:w-fit;
+  @apply absolute -bottom-2 left-0 z-40 w-full translate-y-full opacity-0 transition-opacity duration-500 md:w-fit hidden;
   &.dropdown-open {
-    @apply opacity-100;
+    @apply opacity-100 flex;
   }
   ul {
     @apply overflow-clip rounded-xl bg-white text-blue-dark shadow-default;
     li {
-      @apply cursor-pointer px-5 py-[14px] hover:text-orange;
+      @apply cursor-pointer px-5 py-2 hover:text-orange text-nowrap min-w-28;
     }
   }
 }

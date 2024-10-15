@@ -1,0 +1,17 @@
+{
+  "selectedFilters": {
+    "Version": "Actual",
+    "Currency": "LC",
+    "Measure": "Units"
+  },
+  "filters": {
+    "dimensions": [
+      { "name": "Version", "elements": ["Actual", "Budget"] },
+      { "name": "Currency", "elements": ["LC", "USD", "EUR"] },
+      {
+        "name": "Measure",
+        "elements": ["Units", "Unit Price", "Gross Revenue"]
+      }
+    ]
+  }
+}

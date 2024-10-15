@@ -1,831 +1,160 @@
 {
-  "atualizacoes": [
-    {
-      "foto": "atualizacoes/destaque1.jpg"
-    }
-  ],
-  "depoimento": [
-    {
-      "foto": "atualizacoes/destaque1.jpg",
-      "destaque": "O Instituto Desiderata faz um trabalho incrível com o Unidos Pela Cura, que ajuda na identificação e monitoramento do câncer infantojuvenil no Rio.",
-      "texto": "São nossos parceiros desde 2010 e, desde que começamos, o programa já salvou inúmeras vidas. É um case de sucesso de parceria entre sociedade civil e governo. Esperamos seguir contando com ele.",
-      "nome": "Daniel Soranz",
-      "cargo": "Secretário Municipal de Saúde do Rio de Janeiro",
-      "more": "Outubro/2023"
-    }
-  ],
-  "banner": [
-    {
-      "foto": "fotos/foto1.png",
-      "titulo": "Chamada para link externo ou ainda uma publicação/novidade de destaque",
-      "texto": "[Descrição] Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed mi turpis, egestas sed lacinia imperdiet, ",
-      "labeltexto": "Notícias",
-      "labellink": "#",
-      "labelcustom": "outlinewhite",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#"
-    },
-    {
-      "foto": "fotos/foto2.png",
-      "titulo": "Desiderata participa de seminário em comemoração aos 10 anos do Guia Alimentar",
-      "texto": "Decreto regulamentador de lei é anunciado durante seminário de aniversário do Guia",
-      "labeltexto": "Projeto",
-      "labellink": "#",
-      "labelcustom": "projeto",
-      "btntexto": "Ler mais",
-      "btnlink": "#"
-    },
-    {
-      "foto": "fotos/foto3.png",
-      "titulo": "Unidos Pela Cura – Conquistas da estratégia de diagnóstico precoce do câncer infantojuvenil no RJ",
-      "labeltexto": "Notícias",
-      "labellink": "#",
-      "labelcustom": "outlinewhite",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#"
-    },
-    {
-      "foto": "fotos/foto4.png",
-      "titulo": "Unidos pela Cura",
-      "texto": "Política pública de promoção do diagnóstico precoce do câncer infantojuvenil no Rio de Janeiro.",
-      "labeltexto": "Notícias",
-      "labellink": "#",
-      "labelcustom": "outlinewhite",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#"
-    }
-  ],
-  "destaque": [
-    {
-      "titulo": "Capacitação",
-      "texto": "Capacitação de profissionais de saúde da Atenção Primária nec euismod turpis. Sed eget mauris libero. ",
-      "bignumber": "7.054",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#",
-      "btniconlink": "#"
-    },
-    {
-      "titulo": "Capacitação",
-      "texto": "[Descrição] Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed mi turpis, egestas sed lacinia imperdiet, ",
-      "bignumber": "7.054",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#",
-      "btniconlink": "#"
-    },
-    {
-      "titulo": "Capacitação",
-      "texto": "[Descrição] Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed mi turpis, egestas sed lacinia imperdiet, ",
-      "bignumber": "7.054",
-      "btntexto": "CTA DO BOTAO",
-      "btnlink": "#",
-      "btniconlink": "#"
-    }
-  ],
-
-  "vagas": [
-    {
-      "vaga": "Desenvolvedor Backend",
-      "localizacao": "São Paulo, SP",
-      "descricao": "Desenvolvimento de APIs e integração com sistemas de terceiros."
-    },
-    {
-      "vaga": "Analista de Dados",
-      "localizacao": "Rio de Janeiro, RJ",
-      "descricao": "Análise de grandes volumes de dados e geração de relatórios."
-    },
-    {
-      "vaga": "Designer Gráfico",
-      "localizacao": "Belo Horizonte, MG",
-      "descricao": "Criação de materiais visuais para campanhas de marketing e branding."
-    },
-    {
-      "vaga": "Gerente de Projetos",
-      "localizacao": "Curitiba, PR",
-      "descricao": "Gerenciamento de projetos de TI, coordenação de equipes e prazos."
-    },
-    {
-      "vaga": "Especialista em Marketing Digital",
-      "localizacao": "Porto Alegre, RS",
-      "descricao": "Criação e gerenciamento de campanhas de marketing online."
-    },
-    {
-      "vaga": "Coordenador de Recursos Humanos",
-      "localizacao": "Salvador, BA",
-      "descricao": "Gestão de processos de recrutamento, seleção e treinamento."
-    },
-    {
-      "vaga": "Engenheiro de Software",
-      "localizacao": "Recife, PE",
-      "descricao": "Desenvolvimento e manutenção de software em diversos ambientes."
-    },
-    {
-      "vaga": "Analista de Sistemas",
-      "localizacao": "Fortaleza, CE",
-      "descricao": "Análise e desenvolvimento de sistemas, suporte técnico."
-    },
-    {
-      "vaga": "Assistente Administrativo",
-      "localizacao": "São Luís, MA",
-      "descricao": "Apoio nas atividades administrativas e organização de documentos."
-    },
-    {
-      "vaga": "Consultor de Vendas",
-      "localizacao": "Belém, PA",
-      "descricao": "Atendimento a clientes, elaboração de propostas e fechamento de vendas."
-    },
-    {
-      "vaga": "Desenvolvedor Frontend",
-      "localizacao": "Goiânia, GO",
-      "descricao": "Criação e implementação de interfaces de usuário para aplicações web."
-    },
-    {
-      "vaga": "Analista de Qualidade",
-      "localizacao": "João Pessoa, PB",
-      "descricao": "Realização de testes e controle de qualidade em produtos e processos."
-    },
-    {
-      "vaga": "Gerente de Marketing",
-      "localizacao": "Natal, RN",
-      "descricao": "Planejamento e execução de estratégias de marketing e comunicação."
-    },
-    {
-      "vaga": "Arquiteto de Soluções",
-      "localizacao": "Maceió, AL",
-      "descricao": "Desenvolvimento e implementação de soluções arquitetônicas de TI."
-    },
-    {
-      "vaga": "Especialista em SEO",
-      "localizacao": "Campo Grande, MS",
-      "descricao": "Otimização de sites para motores de busca e aumento de visibilidade online."
-    },
-    {
-      "vaga": "Desenvolvedor Mobile",
-      "localizacao": "Aracaju, SE",
-      "descricao": "Desenvolvimento de aplicativos para plataformas móveis, como Android e iOS."
-    },
-    {
-      "vaga": "Consultor de TI",
-      "localizacao": "Teresina, PI",
-      "descricao": "Assessoria em soluções tecnológicas e suporte a infraestruturas de TI."
-    },
-    {
-      "vaga": "Assistente de Contabilidade",
-      "localizacao": "Vitória, ES",
-      "descricao": "Auxílio na execução de tarefas contábeis e financeiras da empresa."
-    },
-    {
-      "vaga": "Coordenador de Logística",
-      "localizacao": "São José, SC",
-      "descricao": "Gestão de processos logísticos e otimização de cadeia de suprimentos."
-    },
-    {
-      "vaga": "Analista de Segurança da Informação",
-      "localizacao": "Cuiabá, MT",
-      "descricao": "Proteção de dados e informações da empresa contra ameaças cibernéticas."
-    },
-    {
-      "vaga": "Redator de Conteúdo",
-      "localizacao": "São Bernardo do Campo, SP",
-      "descricao": "Criação de conteúdo textual para blogs, sites e materiais de marketing."
-    }
-  ],
-
-  "curso": [
-    {
-      "modulo": "Módulo 1",
-      "titulo": "Introdução às Políticas Públicas para a Obesidade Infantojuvenil",
-      "resumo": "Este módulo oferece uma visão geral das políticas públicas voltadas ao tratamento e prevenção da obesidade infantojuvenil, explorando os principais conceitos e desafios da área."
-    },
-    {
-      "modulo": "Módulo 2",
-      "titulo": "Programas de Intervenção Nutricional",
-      "resumo": "Aborda os programas de intervenção nutricional destinados a crianças e adolescentes, incluindo estratégias de alimentação saudável e monitoramento do crescimento."
-    },
-    {
-      "modulo": "Módulo 3",
-      "titulo": "Psicologia e Obesidade Infantojuvenil",
-      "resumo": "Explora o impacto psicológico da obesidade em crianças e adolescentes, e as abordagens psicossociais para o tratamento e apoio emocional."
-    },
-    {
-      "modulo": "Módulo 4",
-      "titulo": "Estratégias de Atividade Física para Jovens",
-      "resumo": "Enfoca a importância da atividade física regular e as estratégias eficazes para incentivar crianças e adolescentes a se envolverem em exercícios físicos."
-    },
-    {
-      "modulo": "Módulo 5",
-      "titulo": "Avaliação e Monitoramento de Saúde",
-      "resumo": "Detalha os métodos de avaliação e monitoramento da saúde em programas de combate à obesidade, incluindo indicadores de sucesso e técnicas de acompanhamento."
-    },
-    {
-      "modulo": "Módulo 6",
-      "titulo": "Desenvolvimento de Políticas Públicas Eficazes",
-      "resumo": "Enfoca o processo de criação e implementação de políticas públicas para a obesidade infantojuvenil, abordando questões de planejamento e gestão."
-    },
-    {
-      "modulo": "Módulo 7",
-      "titulo": "Educação e Sensibilização Comunitária",
-      "resumo": "Explora a importância da educação e sensibilização da comunidade sobre a obesidade infantojuvenil e as técnicas para promover a conscientização e o engajamento."
-    },
-    {
-      "modulo": "Módulo 8",
-      "titulo": "Aspectos Legais e Éticos",
-      "resumo": "Analisa as questões legais e éticas envolvidas em programas e políticas de obesidade infantojuvenil, incluindo direitos dos pacientes e responsabilidades dos profissionais."
-    },
-    {
-      "modulo": "Módulo 9",
-      "titulo": "Colaboração Interinstitucional",
-      "resumo": "Foca na importância da colaboração entre diferentes instituições e setores para o sucesso dos programas de combate à obesidade infantojuvenil."
-    },
-    {
-      "modulo": "Módulo 10",
-      "titulo": "Avaliação de Impacto e Resultados",
-      "resumo": "Detalha os métodos para avaliar o impacto e os resultados de programas e políticas públicas voltados ao combate da obesidade infantojuvenil, incluindo métricas e análise de dados."
-    }
-  ],
-
-  "tlestrategia": [
-    {
-      "year": "2021",
-      "image": "foto3.jpg",
-      "title": "Título ou fato mais relevante do ano",
-      "events": [
-        "Desenvolvimento de novas campanhas e iniciativas.",
-        "Publicação de estudos e pesquisas significativas."
-      ]
-    },
-    {
-      "year": "2020",
-      "image": "foto2.jpg",
-      "title": "Avanços importantes no setor",
-      "events": [
-        "Criação de novos centros e programas de apoio.",
-        "Parceria com instituições renomadas."
-      ]
-    },
-    {
-      "year": "2019",
-      "image": "foto1.jpg",
-      "title": null,
-      "events": [
-        "Implementação de novas estratégias para melhorias.",
-        "Início de projetos inovadores e transformadores."
-      ]
-    },
-    {
-      "year": "2018",
-      "image": "foto3.jpg",
-      "title": "Mudanças notáveis no cenário",
-      "events": [
-        "Aumento no alcance e impacto das iniciativas.",
-        "Criação de novos centros e programas de apoio."
-      ]
-    },
-    {
-      "year": "2017",
-      "image": "foto2.jpg",
-      "title": null,
-      "events": [
-        "Publicação de estudos e pesquisas significativas.",
-        "Desenvolvimento de novas campanhas e iniciativas."
-      ]
-    },
+  "table": [
+    { "key": ["Bikes", "Germany", "Actual", "LC", "Units"], "value": 1200 },
     {
-      "year": "2016",
-      "image": "foto1.jpg",
-      "title": "Descobertas inovadoras",
-      "events": [
-        "Parceria com instituições renomadas.",
-        "Implementação de novas estratégias para melhorias."
-      ]
+      "key": ["Motorbikes", "Great Britain", "Budget", "USD", "Gross Revenue"],
+      "value": 30000
     },
     {
-      "year": "2015",
-      "image": "foto3.jpg",
-      "title": null,
-      "events": [
-        "Criação de novos centros e programas de apoio.",
-        "Estabelecimento de novas diretrizes e protocolos."
-      ]
+      "key": ["Mountain Bikes", "Germany", "Actual", "EUR", "Unit Price"],
+      "value": 450
     },
+    { "key": ["Road Bikes", "Germany", "Actual", "LC", "Units"], "value": 800 },
     {
-      "year": "2014",
-      "image": "foto2.jpg",
-      "title": "Título ou fato mais relevante do ano",
-      "events": [
-        "Desenvolvimento de novas campanhas e iniciativas.",
-        "Aumento no alcance e impacto das iniciativas."
-      ]
+      "key": ["Sport Bikes", "Great Britain", "Budget", "EUR", "Gross Revenue"],
+      "value": 25000
     },
     {
-      "year": "2013",
-      "image": "foto1.jpg",
-      "title": "Avanços importantes no setor",
-      "events": [
-        "Início de projetos inovadores e transformadores.",
-        "Criação de novos centros e programas de apoio."
-      ]
+      "key": ["Cruiser Bikes", "Italy", "Actual", "USD", "Unit Price"],
+      "value": 350
     },
+    { "key": ["Bikes", "Germany", "Budget", "LC", "Units"], "value": 1000 },
     {
-      "year": "2012",
-      "image": "foto3.jpg",
-      "title": null,
-      "events": [
-        "Implementação de novas estratégias para melhorias.",
-        "Publicação de estudos e pesquisas significativas."
-      ]
+      "key": ["Motorbikes", "Great Britain", "Actual", "USD", "Gross Revenue"],
+      "value": 20000
     },
     {
-      "year": "2011",
-      "image": "foto2.jpg",
-      "title": "Descobertas inovadoras",
-      "events": [
-        "Parceria com instituições renomadas.",
-        "Desenvolvimento de novas campanhas e iniciativas."
-      ]
+      "key": ["Mountain Bikes", "Germany", "Budget", "EUR", "Unit Price"],
+      "value": 400
     },
-    {
-      "year": "2010",
-      "image": "foto1.jpg",
-      "title": null,
-      "events": [
-        "Estabelecimento de novas diretrizes e protocolos.",
-        "Aumento no alcance e impacto das iniciativas."
-      ]
-    },
-    {
-      "year": "2009",
-      "image": "foto3.jpg",
-      "title": "Mudanças notáveis no cenário",
-      "events": [
-        "Criação de novos centros e programas de apoio.",
-        "Implementação de novas estratégias para melhorias."
-      ]
-    },
-    {
-      "year": "2008",
-      "image": "foto2.jpg",
-      "title": "Título ou fato mais relevante do ano",
-      "events": [
-        "Desenvolvimento de novas campanhas e iniciativas.",
-        "Início de projetos inovadores e transformadores."
-      ]
-    },
-    {
-      "year": "2007",
-      "image": "foto1.jpg",
-      "title": null,
-      "events": [
-        "Aumento no alcance e impacto das iniciativas.",
-        "Publicação de estudos e pesquisas significativas."
-      ]
-    }
-  ],
-  "equipe": [
-    {
-      "nome": "Renata Couto",
-      "cargo": "Diretora Executiva",
-      "foto": "foto1.png",
-      "bio": "<p>Renata possui mais de 15 anos de experiência em gestão estratégica e liderança de equipes.</p><p>Ela foi responsável por transformar a visão da empresa em ações concretas, levando a um crescimento significativo nos últimos anos. Anteriormente, atuou como diretora de operações em uma multinacional, onde liderou projetos de grande impacto no mercado global.</p>"
-    },
-    {
-      "nome": "Carlos Silva",
-      "cargo": "Gerente de Projetos",
-      "foto": "foto2.png",
-      "bio": "<p>Carlos é um especialista em gerenciamento de projetos com mais de uma década de experiência em coordenar equipes e entregar projetos complexos dentro do prazo e do orçamento.</p><p>Ele tem um histórico comprovado na implementação de metodologias ágeis e na otimização de processos, tendo trabalhado anteriormente em empresas de tecnologia de ponta.</p>"
-    },
-    {
-      "nome": "Ana Paula",
-      "cargo": "Coordenadora de Marketing",
-      "foto": "foto3.png",
-      "bio": "<p>Ana Paula é uma profissional de marketing com forte experiência em estratégias de branding e campanhas digitais.</p><p>Com mais de 8 anos no setor, ela ajudou a construir e fortalecer a presença de várias marcas no mercado. Sua experiência inclui a gestão de campanhas em mídias sociais e a análise de dados para otimizar resultados.</p>"
-    },
-    {
-      "nome": "João Pereira",
-      "cargo": "Analista de Sistemas",
-      "foto": "foto4.png",
-      "bio": "<p>João tem uma vasta experiência em análise de sistemas e desenvolvimento de software, com mais de 7 anos trabalhando em diferentes ambientes corporativos.</p><p>Ele é especializado em identificar necessidades dos clientes e traduzir essas necessidades em soluções tecnológicas eficazes. João também tem experiência em integração de sistemas e otimização de processos de TI.</p>"
-    },
-    {
-      "nome": "Fernanda Lima",
-      "cargo": "Designer Gráfico",
-      "foto": "foto5.png",
-      "bio": "<p>Fernanda é uma designer gráfica criativa com mais de 10 anos de experiência na criação de identidades visuais e material publicitário.</p><p>Ela trabalhou com uma ampla gama de clientes, desenvolvendo conceitos visuais que comunicam efetivamente as mensagens da marca. Seu portfólio inclui trabalhos para campanhas publicitárias e design de interfaces digitais.</p>"
-    },
-    {
-      "nome": "Marcos Oliveira",
-      "cargo": "Consultor Financeiro",
-      "foto": "foto6.png",
-      "bio": "<p>Marcos possui uma vasta experiência em consultoria financeira, com foco em planejamento estratégico e análise de investimentos.</p><p>Ele ajudou empresas a melhorar sua gestão financeira e a otimizar suas operações. Antes de ingressar na empresa, trabalhou em grandes instituições financeiras, oferecendo aconselhamento estratégico e análise detalhada para clientes corporativos.</p>"
-    },
-    {
-      "nome": "Beatriz Souza",
-      "cargo": "Gerente de Vendas",
-      "foto": "foto7.png",
-      "bio": "<p>Beatriz é uma experiente gerente de vendas, com mais de 12 anos liderando equipes de vendas e desenvolvendo estratégias para aumentar a receita.</p><p>Ela tem uma habilidade comprovada em negociação e gestão de contas-chave, e anteriormente trabalhou em empresas de diversos setores, onde foi responsável por expandir a base de clientes e aumentar a participação de mercado.</p>"
-    },
-    {
-      "nome": "Gabriel Costa",
-      "cargo": "Engenheiro de Software",
-      "foto": "foto8.png",
-      "bio": "<p>Gabriel é um engenheiro de software apaixonado por inovação e desenvolvimento de novas tecnologias.</p><p>Com mais de 6 anos de experiência no setor, ele tem um histórico de criação de soluções de software robustas e eficientes. Gabriel trabalhou em projetos que variam de aplicativos móveis a sistemas corporativos complexos, sempre buscando a excelência técnica e a satisfação do cliente.</p>"
-    }
-  ],
-  "empresas": [
-    {
-      "logo": "logo/logo5.png",
-      "nome": "Empresa X",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo6.png",
-      "nome": "Empresa Y",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo7.png",
-      "nome": "Empresa Z",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo8.png",
-      "nome": "Empresa U",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo9.png",
-      "nome": "Empresa X",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo10.png",
-      "nome": "Empresa Y",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo11.png",
-      "nome": "Empresa Z",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo5.png",
-      "nome": "Empresa X",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo6.png",
-      "nome": "Empresa Y",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo7.png",
-      "nome": "Empresa Z",
-      "link": "#"
-    },
-    {
-      "logo": "logo/logo8.png",
-      "nome": "Empresa U",
-      "link": "#"
-    }
-  ],
-  "depoimentocurso": [
-    {
-      "destaque": "O conteúdo do curso para mim foi muito inovador porque nunca tinha tido contato com sinais e sintomas do câncer antes. Achei a abordagem do curso muito boa e didática.",
-      "nome": "Daniel Soranz",
-      "cargo": "Secretário Municipal de Saúde do Rio de Janeiro",
-      "more": "Sobre o curso Introdução aos Cuidados Paliativos Pediátricos"
-    },
-    {
-      "destaque": "No curso, nós discutimos a obesidade infantil e a importância de pensar a obesidade desde a gestação, a importância da amamentação, a introdução dos alimentos saudáveis.",
-      "nome": "Ana Maria",
-      "cargo": "Coordenadora de Projetos",
-      "more": "Sobre o curso Cuidados Relacionados à Obesidade em Crianças e Adolescentes"
-    },
-    {
-      "destaque": "A formação tem exemplos práticos e bem descritos.",
-      "nome": "Articuladores nas CAPS do Município do Rio de Janeiro",
-      "more": "Sobre o curso Cuidado Multiprofissional na APS para o Manejo da Obesidade Infantojuvenil"
-    },
-    {
-      "destaque": "Nullam accumsan nisl eget nunc gravida tempor. Aliquam erat volutpat. Vestibulum vel libero pretium arcu auctor pulvinar.",
-      "nome": "Juliana Souza",
-      "cargo": "Oncologista Pediátrica",
-      "more": "Sobre o curso Introdução aos Cuidados Paliativos Pediátricos"
-    }
-  ],
-  "rede": [
-    {
-      "logo": "rede/logo1.png",
-      "nome": "Saúde Plus",
-      "link": "#",
-      "texto": "Saúde Plus é uma empresa de referência no setor de saúde, oferecendo soluções inovadoras para o tratamento de diversas doenças.",
-      "tipo": "obesidade"
-    },
-    {
-      "logo": "rede/logo2.png",
-      "nome": "Vida Viva",
-      "link": "#",
-      "texto": "Vida Viva dedica-se à pesquisa e desenvolvimento de tratamentos avançados para o câncer, buscando melhorar a qualidade de vida dos pacientes.",
-      "tipo": "cancer"
-    },
-    {
-      "logo": "rede/logo3.png",
-      "nome": "Bem Estar",
-      "link": "#",
-      "texto": "Bem Estar trabalha com iniciativas institucionais voltadas para a promoção da saúde e bem-estar da comunidade.",
-      "tipo": "institucional"
-    },
-    {
-      "logo": "rede/logo4.png",
-      "nome": "Vida Saudável",
-      "link": "#",
-      "texto": "Vida Saudável oferece programas de prevenção e tratamento da obesidade, ajudando pessoas a alcançar um estilo de vida mais saudável.",
-      "tipo": "obesidade"
-    },
-    {
-      "logo": "rede/logo5.png",
-      "nome": "OncoCare",
-      "link": "#",
-      "texto": "OncoCare é uma líder em tratamento oncológico, fornecendo terapias personalizadas para pacientes com câncer.",
-      "tipo": "cancer"
-    },
-    {
-      "logo": "rede/logo1.png",
-      "nome": "Saúde Total",
-      "link": "#",
-      "texto": "Saúde Total promove o bem-estar integral por meio de soluções inovadoras em saúde e prevenção de doenças.",
-      "tipo": "institucional"
-    },
-    {
-      "logo": "rede/logo2.png",
-      "nome": "Cura Saúde",
-      "link": "#",
-      "texto": "Cura Saúde dedica-se ao tratamento e pesquisa de doenças crônicas, com foco especial na obesidade.",
-      "tipo": "obesidade"
-    },
-    {
-      "logo": "rede/logo3.png",
-      "nome": "Vida Plena",
-      "link": "#",
-      "texto": "Vida Plena oferece uma ampla gama de serviços para o tratamento do câncer, com uma abordagem humanizada.",
-      "tipo": "cancer"
-    },
-    {
-      "logo": "rede/logo4.png",
-      "nome": "Bem Viver",
-      "link": "#",
-      "texto": "Bem Viver trabalha com iniciativas de saúde pública, promovendo campanhas e programas de prevenção.",
-      "tipo": "institucional"
-    },
-    {
-      "logo": "rede/logo5.png",
-      "nome": "Saúde Integral",
-      "link": "#",
-      "texto": "Saúde Integral oferece soluções abrangentes para a prevenção e tratamento de diversas condições de saúde.",
-      "tipo": "obesidade"
-    }
-  ],
-  "pilar": [
-    {
-      "icon": "pilares/icon1.svg",
-      "titulo": "Multiplataforma",
-      "descricao": "Adaptável para todas as telas. Você pode acessar os conteúdos dos cursos pelo computador ou pelo celular sem perder a qualidade."
-    },
-    {
-      "icon": "pilares/icon2.svg",
-      "titulo": "Certificado de Conclusão",
-      "descricao": "Todos os nossos cursos possuem certificado de conclusão e são fornecidos aos profissionais que alcançam os requisitos de conclusão dos cursos."
-    },
-    {
-      "icon": "pilares/icon3.svg",
-      "titulo": "Atividades e Tarefas",
-      "descricao": "Estão totalmente alinhadas com o objetivo de proporcionar uma melhor compreensão dos conteúdos trabalhados de forma lúdica e interativa."
-    },
-    {
-      "icon": "pilares/icon4.svg",
-      "titulo": "Percurso Formativo",
-      "descricao": "Desenvolvemos Trilhas de Aprendizagem estruturadas para promover uma formação completa, significativa e alinhada à prática profissional."
-    },
-    {
-      "icon": "pilares/icon5.svg",
-      "titulo": "Comunidade",
-      "descricao": "Para formar uma comunidade de práticas, o nosso Ambiente Virtual conta com espaços que possibilitam a troca de saberes entre os profissionais da saúde."
-    },
-    {
-      "icon": "pilares/icon6.svg",
-      "titulo": "Você no Controle",
-      "descricao": "Nossos cursos contam com um fluxo de atividades e tarefas bem definidos e flexíveis para facilitar a gestão do seu tempo."
-    }
-  ],
-  "results": [
+    { "key": ["Road Bikes", "Germany", "Budget", "LC", "Units"], "value": 700 },
     {
-      "id": 1,
-      "type": "Estratégias",
-      "title": "Desenvolvimento de Estratégias para Saúde Juvenil",
-      "description": "Desenvolvimento de estratégias eficazes para promover a saúde entre os jovens.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Sport Bikes", "Great Britain", "Actual", "EUR", "Gross Revenue"],
+      "value": 22000
     },
     {
-      "id": 2,
-      "type": "Projetos",
-      "title": "Seminários de Obesidade Infantojuvenil",
-      "description": "Com o objetivo de fomentar a discussão entre especialistas e sociedade, realizamos os seminários sobre obesidade em crianças e adolescentes.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Cruiser Bikes", "Italy", "Budget", "USD", "Unit Price"],
+      "value": 300
     },
+    { "key": ["Bikes", "Germany", "Actual", "EUR", "Units"], "value": 1100 },
     {
-      "id": 3,
-      "type": "Cursos",
-      "title": "Curso de Nutrição Infantil",
-      "description": "Curso para fornecer conhecimentos avançados em nutrição infantil, abrangendo desde a alimentação saudável até a prevenção de doenças nutricionais.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Motorbikes", "Great Britain", "Budget", "GBP", "Gross Revenue"],
+      "value": 28000
     },
     {
-      "id": 4,
-      "type": "Publicações",
-      "title": "Estudo sobre Transtornos Alimentares",
-      "description": "Análise aprofundada dos transtornos alimentares em adolescentes, incluindo causas, consequências e estratégias de intervenção.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Mountain Bikes", "Germany", "Actual", "USD", "Unit Price"],
+      "value": 420
     },
     {
-      "id": 5,
-      "type": "Novidades",
-      "title": "Novas Diretrizes para Saúde Juvenil",
-      "description": "Atualizações sobre novas diretrizes e recomendações para a saúde dos jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Road Bikes", "Germany", "Actual", "EUR", "Units"],
+      "value": 900
     },
     {
-      "id": 6,
-      "type": "Redes estratégicas",
-      "title": "Parcerias para Ação Comunitária",
-      "description": "Iniciativas para formar parcerias estratégicas visando ações comunitárias para o bem-estar juvenil.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Sport Bikes", "Great Britain", "Budget", "EUR", "Gross Revenue"],
+      "value": 24000
     },
     {
-      "id": 7,
-      "type": "Vagas",
-      "title": "Vaga para Educador de Saúde Juvenil",
-      "description": "Oportunidade para trabalhar como educador de saúde juvenil em nosso programa de bem-estar.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Cruiser Bikes", "Italy", "Actual", "EUR", "Unit Price"],
+      "value": 320
     },
+    { "key": ["Bikes", "Germany", "Budget", "EUR", "Units"], "value": 1000 },
     {
-      "id": 8,
-      "type": "Equipe",
-      "title": "Equipe de Pesquisa em Nutrição",
-      "description": "Equipe dedicada à pesquisa sobre nutrição e suas implicações na saúde dos jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Motorbikes", "Great Britain", "Actual", "GBP", "Gross Revenue"],
+      "value": 20000
     },
     {
-      "id": 9,
-      "type": "Áreas programáticas",
-      "title": "Áreas de Foco em Saúde Mental",
-      "description": "Áreas de atuação que incluem estratégias e intervenções para melhorar a saúde mental entre os jovens.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Mountain Bikes", "Germany", "Budget", "USD", "Unit Price"],
+      "value": 400
     },
     {
-      "id": 10,
-      "type": "Eixos de atuação",
-      "title": "Eixos de Atuação em Educação Ambiental",
-      "description": "Foco em eixos estratégicos para promover a educação ambiental e a sustentabilidade entre os jovens.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Road Bikes", "Germany", "Budget", "EUR", "Units"],
+      "value": 800
     },
     {
-      "id": 11,
-      "type": "Estratégias",
-      "title": "Estratégias de Prevenção ao Uso de Drogas",
-      "description": "Desenvolvimento de estratégias para prevenir o uso de drogas entre adolescentes.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Sport Bikes", "Great Britain", "Actual", "EUR", "Gross Revenue"],
+      "value": 22000
     },
     {
-      "id": 12,
-      "type": "Projetos",
-      "title": "Projeto de Inclusão Digital",
-      "description": "Iniciativa para promover a inclusão digital entre jovens em situação de vulnerabilidade.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Cruiser Bikes", "Italy", "Budget", "EUR", "Unit Price"],
+      "value": 300
     },
+    { "key": ["Bikes", "Germany", "Actual", "USD", "Units"], "value": 1200 },
     {
-      "id": 13,
-      "type": "Cursos",
-      "title": "Curso de Habilidades Sociais",
-      "description": "Treinamento para melhorar habilidades sociais e de comunicação entre jovens.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Motorbikes", "Great Britain", "Budget", "USD", "Gross Revenue"],
+      "value": 30000
     },
     {
-      "id": 14,
-      "type": "Publicações",
-      "title": "Relatório sobre Impactos das Mídias Sociais",
-      "description": "Relatório detalhado sobre como o uso das mídias sociais afeta o comportamento dos jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Mountain Bikes", "Germany", "Actual", "EUR", "Unit Price"],
+      "value": 450
     },
+    { "key": ["Road Bikes", "Germany", "Actual", "LC", "Units"], "value": 900 },
     {
-      "id": 15,
-      "type": "Novidades",
-      "title": "Novas Pesquisas em Saúde Mental",
-      "description": "Atualizações sobre novas pesquisas e descobertas na área de saúde mental juvenil.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Sport Bikes", "Great Britain", "Budget", "EUR", "Gross Revenue"],
+      "value": 24000
     },
     {
-      "id": 16,
-      "type": "Redes estratégicas",
-      "title": "Parcerias para Projetos de Empreendedorismo",
-      "description": "Formação de redes estratégicas para apoiar projetos de empreendedorismo juvenil.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Cruiser Bikes", "Italy", "Actual", "USD", "Unit Price"],
+      "value": 350
     },
+    { "key": ["Bikes", "Germany", "Budget", "LC", "Units"], "value": 1000 },
     {
-      "id": 17,
-      "type": "Vagas",
-      "title": "Oportunidade de Estágio em Saúde Pública",
-      "description": "Estágio para trabalhar com projetos voltados para a saúde pública juvenil.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Motorbikes", "Great Britain", "Actual", "USD", "Gross Revenue"],
+      "value": 20000
     },
     {
-      "id": 18,
-      "type": "Equipe",
-      "title": "Equipe de Desenvolvimento de Cursos",
-      "description": "Equipe responsável pelo desenvolvimento e implementação de cursos para jovens.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Mountain Bikes", "Germany", "Budget", "EUR", "Unit Price"],
+      "value": 400
     },
+    { "key": ["Road Bikes", "Germany", "Budget", "LC", "Units"], "value": 700 },
     {
-      "id": 19,
-      "type": "Áreas programáticas",
-      "title": "Áreas de Foco em Saúde Sexual",
-      "description": "Áreas dedicadas ao desenvolvimento de programas focados em saúde sexual e reprodutiva para jovens.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Sport Bikes", "Great Britain", "Actual", "EUR", "Gross Revenue"],
+      "value": 22000
     },
     {
-      "id": 20,
-      "type": "Eixos de atuação",
-      "title": "Eixos de Atuação em Educação Física",
-      "description": "Foco em eixos de atuação que promovem a prática de atividades físicas entre jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Cruiser Bikes", "Italy", "Budget", "USD", "Unit Price"],
+      "value": 300
     },
+    { "key": ["Bikes", "USA", "Actual", "USD", "Units"], "value": 1500 },
     {
-      "id": 21,
-      "type": "Estratégias",
-      "title": "Estratégias de Empoderamento Juvenil",
-      "description": "Desenvolvimento de estratégias para empoderar jovens através de programas educacionais e sociais.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Motorbikes", "Canada", "Budget", "CAD", "Gross Revenue"],
+      "value": 40000
     },
     {
-      "id": 22,
-      "type": "Projetos",
-      "title": "Projeto de Prevenção ao Tabagismo",
-      "description": "Projeto voltado para a prevenção do uso de tabaco entre jovens através de campanhas e workshops.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Mountain Bikes", "USA", "Actual", "USD", "Unit Price"],
+      "value": 600
     },
     {
-      "id": 23,
-      "type": "Cursos",
-      "title": "Curso de Formação em Liderança",
-      "description": "Curso para desenvolver habilidades de liderança e gestão entre jovens líderes em potencial.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Road Bikes", "Canada", "Actual", "CAD", "Units"],
+      "value": 1200
     },
     {
-      "id": 24,
-      "type": "Publicações",
-      "title": "Pesquisa sobre Desigualdade Social",
-      "description": "Pesquisa focada nas desigualdades sociais enfrentadas pelos jovens e estratégias para mitigação.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Sport Bikes", "USA", "Budget", "USD", "Gross Revenue"],
+      "value": 35000
     },
     {
-      "id": 25,
-      "type": "Novidades",
-      "title": "Novas Iniciativas em Acessibilidade",
-      "description": "Atualizações sobre novas iniciativas para promover a acessibilidade e inclusão entre jovens.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Cruiser Bikes", "Canada", "Actual", "CAD", "Unit Price"],
+      "value": 450
     },
+    { "key": ["Bikes", "USA", "Budget", "USD", "Units"], "value": 1800 },
     {
-      "id": 26,
-      "type": "Redes estratégicas",
-      "title": "Parcerias para Programas de Mentoria",
-      "description": "Formação de redes estratégicas para apoiar programas de mentoria para jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Motorbikes", "Canada", "Actual", "CAD", "Gross Revenue"],
+      "value": 50000
     },
     {
-      "id": 27,
-      "type": "Vagas",
-      "title": "Vaga para Coordenador de Projetos Sociais",
-      "description": "Oportunidade para coordenar projetos sociais focados em saúde e bem-estar juvenil.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Mountain Bikes", "USA", "Budget", "USD", "Unit Price"],
+      "value": 700
     },
     {
-      "id": 28,
-      "type": "Equipe",
-      "title": "Equipe de Desenvolvimento de Políticas Públicas",
-      "description": "Equipe dedicada ao desenvolvimento e análise de políticas públicas voltadas para a juventude.",
-      "tag": { "text": "Câncer Infantojuvenil", "link": "#", "objeto": "cancer" }
+      "key": ["Road Bikes", "Canada", "Budget", "CAD", "Units"],
+      "value": 1500
     },
     {
-      "id": 29,
-      "type": "Áreas programáticas",
-      "title": "Áreas de Foco em Tecnologias Educacionais",
-      "description": "Áreas voltadas para o desenvolvimento e implementação de tecnologias educacionais para jovens.",
-      "tag": { "text": "Obesidade Infantojuvenil", "link": "#", "objeto": "obesidade" }
+      "key": ["Sport Bikes", "USA", "Actual", "USD", "Gross Revenue"],
+      "value": 40000
     },
     {
-      "id": 30,
-      "type": "Eixos de atuação",
-      "title": "Eixos de Atuação em Saúde e Bem-Estar",
-      "description": "Foco em eixos de atuação que promovem a saúde e o bem-estar entre jovens.",
-      "tag": { "text": "Institucional", "link": "#", "objeto": "institucional" }
+      "key": ["Cruiser Bikes", "Canada", "Budget", "CAD", "Unit Price"],
+      "value": 550
     }
   ]
 }

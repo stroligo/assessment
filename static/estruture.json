@@ -1,0 +1,41 @@
+{
+  "rows": {
+    "dimension": "Articles",
+    "elements": [
+      {
+        "name": "All Articles",
+        "children": [
+          {
+            "name": "Bikes",
+            "children": [{ "name": "Mountain Bikes" }, { "name": "Road Bikes" }]
+          },
+          {
+            "name": "Motorbikes",
+            "children": [{ "name": "Sport Bikes" }, { "name": "Cruiser Bikes" }]
+          }
+        ]
+      }
+    ]
+  },
+  "columns": {
+    "dimension": "Regions",
+    "elements": [
+      {
+        "name": "Europe",
+        "children": [
+          { "name": "Germany" },
+          { "name": "Great Britain" },
+          { "name": "Italy" }
+        ]
+      },
+      {
+        "name": "North America",
+        "children": [{ "name": "USA" }, { "name": "Canada" }]
+      }
+    ],
+    "Legal Entity": ["11", "12", "13", "All Entities"],
+    "Version": ["Actual", "Budget"],
+    "Currency": ["LC", "USD", "EUR"],
+    "Measure": ["Units", "Unit Price", "Gross Revenue"]
+  }
+}

@@ -14,21 +14,15 @@
         >
           <!-- Logo -->
           <a href="/">
-            <div class="logo relative z-40 cursor-pointer">
-              <SvgoPanorama
-                class="w-[173.5px] md:w-[230px]"
-                :fontControlled="false"
-                filled
-              />
+            <div class="logo relative z-40 cursor-pointer font-bold text-white">
+              ASSESSMENT
             </div>
           </a>
           <!-- Desktop Menu -->
           <div class="flex gap-8">
             <div class="hidden md:flex">
               <ul class="menutop">
-                <a href="#"><li>Panorama Brasil</li></a>
-                <a href="#"><li>Metodologia</li></a>
-                <a href="atualizacoes"><li>Atualizações</li></a>
+                <a href="#"><li>Table</li></a>
               </ul>
             </div>
             <!-- Botão Search -->
@@ -60,13 +54,21 @@
         }"
         v-show="searchOpen || searchOpen === false"
       >
-        <div class="container mx-auto flex h-full items-center gap-6 px-5 md:px-0">
+        <div
+          class="container mx-auto flex h-full items-center gap-6 px-5 md:px-0"
+        >
           <!-- InputSearch -->
           <div class="relative w-full">
-            <div class="absolute left-0 top-1/2 -translate-y-1/2 text-lg text-white">
+            <div
+              class="absolute left-0 top-1/2 -translate-y-1/2 text-lg text-white"
+            >
               <SvgoSearch />
             </div>
-            <input type="search" placeholder="Buscar por..." class="inputnavbar" />
+            <input
+              type="search"
+              placeholder="Buscar por..."
+              class="inputnavbar"
+            />
           </div>
           <!-- Controller -->
           <div class="flex gap-2">
