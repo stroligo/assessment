@@ -3,14 +3,6 @@
 const props = defineProps(['footer']);
 </script>
 <template>
-  <section class="bg-gray-10">
-    <div class="container mx-auto py-15 md:px-0 md:py-24">
-      <!-- Titulo Mobile -->
-      <div class="mb-6 flex w-full text-center md:hidden">
-        <h2 class="text-blue-dark">Conheça mais sobre o nosso trabalho</h2>
-      </div>
-    </div>
-  </section>
   <footer>
     <!--  Content Footer -->
     <div class="bg-blue text-white">

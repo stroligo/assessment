@@ -11,10 +11,6 @@ export default defineNuxtConfig({
   image: {
     inject: true,
     format: ['webp'],
-    provider: 'static',
-    static: {
-      baseURL: '/public/img',
-    },
   },
 
   postcss: {
@@ -27,7 +23,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: process.env.NODE_ENV === 'development' ? '/' : '/',
     head: {
       titleTemplate: '%s - Desiderata',
       meta: [
@@ -45,11 +40,7 @@ export default defineNuxtConfig({
     },
   },
 
-  runtimeConfig: {
-    public: {
-      baseUrl: process.env.NODE_ENV === 'development' ? '/' : '/',
-    },
-  },
+  runtimeConfig: {},
 
   plugins: ['~/plugins/squircle.js'],
 
