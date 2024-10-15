@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "getdata": "node getData.mjs",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.0.1",
+    "@nuxt/image": "^1.7.0",
+    "@splidejs/vue-splide": "^0.6.12",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "autoprefixer": "^10.4.19",
+    "css-houdini-squircle": "^0.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nuxt": "^3.8.2",
+    "nuxt-svgo": "^4.0.2",
+    "postcss": "^8.4.31",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^9.5.15",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "request": "^2.88.2",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "swiper": "^11.1.4"
+  }
+}
