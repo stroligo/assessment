@@ -47,7 +47,7 @@ button {
     }
   }
   &.small {
-    @apply h-8 w-8;
+    @apply h-6 w-6;
   }
   &.medium {
     @apply h-11 w-11;

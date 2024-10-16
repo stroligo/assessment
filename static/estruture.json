@@ -3,17 +3,12 @@
     "dimension": "Articles",
     "elements": [
       {
-        "name": "All Articles",
-        "children": [
-          {
-            "name": "Bikes",
-            "children": [{ "name": "Mountain Bikes" }, { "name": "Road Bikes" }]
-          },
-          {
-            "name": "Motorbikes",
-            "children": [{ "name": "Sport Bikes" }, { "name": "Cruiser Bikes" }]
-          }
-        ]
+        "name": "Bikes",
+        "children": [{ "name": "Mountain Bikes" }, { "name": "Road Bikes" }]
+      },
+      {
+        "name": "Motorbikes",
+        "children": [{ "name": "Sport Bikes" }, { "name": "Cruiser Bikes" }]
       }
     ]
   },
@@ -22,18 +17,14 @@
     "elements": [
       {
         "name": "Europe",
-        "children": [
-          { "name": "Germany" },
-          { "name": "Great Britain" },
-          { "name": "Italy" }
-        ]
+        "children": [{ "name": "Germany" }, { "name": "Great Britain" }]
       },
       {
-        "name": "North America",
+        "name": "America",
         "children": [{ "name": "USA" }, { "name": "Canada" }]
       }
     ],
-    "Legal Entity": ["11", "12", "13", "All Entities"],
+    "LegalEntity": ["11", "12", "13", "All Entities"],
     "Version": ["Actual", "Budget"],
     "Currency": ["LC", "USD", "EUR"],
     "Measure": ["Units", "Unit Price", "Gross Revenue"]

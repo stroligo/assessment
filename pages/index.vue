@@ -3,13 +3,7 @@
 
   <main>
     <!-- Home -->
-    <section>
-      <div
-        class="container relative mx-auto flex flex-col gap-16 px-5 py-20 md:gap-32 md:px-0"
-      >
-        <TableModel />
-      </div>
-    </section>
+    <TableModel />
   </main>
 
   <layoutFooter />

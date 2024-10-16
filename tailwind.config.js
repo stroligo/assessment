@@ -21,24 +21,26 @@ module.exports = {
         yellow: '#FFD500',
         'yellow-20': '#FFEF8A',
         'yellow-50': '#FABB00',
-        orange: '#F7A600', // USADA
-        gray: '#878787', // USADA
+        orange: '#F7A600',
+        gray: '#878787',
         'gray-5': '#F0F0F0',
-        'gray-10': '#F6F6F6', // USADA
+        'gray-10': '#F6F6F6',
         'gray-20': '#DADADA',
-        'gray-70': '#737373', // USADA
+        'gray-30': '#B2B2B2',
+        'gray-70': '#737373',
         'gray-80': '#575756',
-        'gray-90': '#40403F', // USADA
-        blue: '#0083CA', // USADA
-        'blue-light': '#B1D6E4', // USADA
-        'blue-dark': '#042B60', // USADA
-        teal: '#3C8BA0', // USADA
+        'gray-90': '#40403F',
+        blue: '#0083CA',
+        'blue-light': '#B1D6E4',
+        'blue-dark': '#042B60',
+        teal: '#3C8BA0',
         'blue-5': '#DCF2FE',
         'blue-20': '#97D9FC',
         'blue-70': '#0068B2',
-        'green-5': '#E4F1F6', // USADA
-        'green-10': '#CEE5EE', // USADA
-        'green-60': '#45A1BA', // USADA
+        'green-5': '#E4F1F6',
+        'green-10': '#CEE5EE',
+        'green-60': '#45A1BA',
+        'green-70': '#246F84',
       },
       fontFamily: {
         sans: ['BreveSans', 'sans-serif'],
@@ -61,18 +63,17 @@ module.exports = {
       },
 
       borderRadius: {
-        desiderata: '3rem',
         btn: '2rem',
       },
     },
     // Configuração padrão de sombra
     boxShadow: {
       none: 'none',
-      desiderata: '0px 16px 32px -32px rgba(3, 29, 64, 0.15)',
+      base: '0px 16px 32px -32px rgba(3, 29, 64, 0.15)',
     },
     // Configuração padrão de drop shadow
     dropShadow: {
-      desiderata: '0px 16px 32px -32px rgba(3, 29, 64, 0.15)',
+      base: '0px 16px 32px -32px rgba(3, 29, 64, 0.15)',
       DEFAULT: '6px 6px  #000',
     },
   },

@@ -1,16 +1,24 @@
 {
   "selectedFilters": {
-    "Version": "Actual",
-    "Currency": "LC",
-    "Measure": "Units"
+    "Version": "All Versions",
+    "Currency": "All Currencies",
+    "Measure": "All Measures",
+    "LegalEntity": "All Entities"
   },
   "filters": {
     "dimensions": [
-      { "name": "Version", "elements": ["Actual", "Budget"] },
-      { "name": "Currency", "elements": ["LC", "USD", "EUR"] },
+      { "name": "Version", "elements": ["All Versions", "Actual", "Budget"] },
+      {
+        "name": "Currency",
+        "elements": ["All Currencies", "LC", "USD", "EUR"]
+      },
       {
         "name": "Measure",
-        "elements": ["Units", "Unit Price", "Gross Revenue"]
+        "elements": ["All Measures", "Units", "Unit Price", "Gross Revenue"]
+      },
+      {
+        "name": "LegalEntity",
+        "elements": ["All Entities", "11", "12", "13"]
       }
     ]
   }

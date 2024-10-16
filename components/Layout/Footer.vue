@@ -7,10 +7,9 @@ const props = defineProps(['footer']);
     <!--  Content Footer -->
     <div class="bg-blue text-white">
       <div class="container mx-auto flex flex-col gap-12 px-5 md:px-0 py-10">
-        <div class="flex flex-col-reverse gap-12 md:flex-row md:gap-8">
+        <div class="flex flex-col gap-12 md:flex-row md:gap-8">
           <!-- Col1 -->
           <div class="flex flex-col gap-6 md:w-6/12">
-            <!-- Logos -->
             <div
               class="logo relative z-40 text-3xl cursor-pointer font-bold text-white"
             >
@@ -52,25 +51,28 @@ const props = defineProps(['footer']);
                   Access to other things related
                 </div>
                 <div class="flex gap-4 justify-end text-blue-dark">
-                  <uiIcon
-                    custom="primary"
-                    link="https://www.linkedin.com/in/gabrielstroligo/"
+                  <a
+                    href="https://www.linkedin.com/in/gabrielstroligo/"
+                    target="_blank"
                   >
-                    <SvgoLinkedin
-                  /></uiIcon>
-
-                  <uiIcon
-                    custom="primary"
-                    link="https://github.com/stroligo/assessment"
+                    <uiIcon custom="primary"> <SvgoLinkedin /></uiIcon>
+                  </a>
+                  <a
+                    href="https://github.com/stroligo/assessment"
+                    target="_blank"
                   >
-                    <SvgoGithub />
-                  </uiIcon>
-                  <uiIcon
-                    custom="primary"
-                    link="https://assessment-stroligo.vercel.app/"
+                    <uiIcon custom="primary">
+                      <SvgoGithub />
+                    </uiIcon>
+                  </a>
+                  <a
+                    href="https://assessment-stroligo.vercel.app/"
+                    target="_blank"
                   >
-                    <SvgoVercel class="-translate-y-0.5" />
-                  </uiIcon>
+                    <uiIcon custom="primary">
+                      <SvgoVercel class="-translate-y-0.5" />
+                    </uiIcon>
+                  </a>
                 </div>
               </div>
             </div>

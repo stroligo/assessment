@@ -1,9 +1,6 @@
 <!-- component layoutNav -->
 <template>
-  <div
-    :class="{ 'scroll-on': isScrolled, 'scroll-up': isScrollUp }"
-    @click="handleOutsideClick"
-  >
+  <div>
     <nav class="fixed top-0 z-50 w-full md:bg-blue">
       <!-- Barra topo -->
       <div
@@ -12,85 +9,20 @@
         <div
           class="container relative z-50 mx-auto flex h-full items-center justify-between gap-6 px-6 md:flex-row md:px-0"
         >
-          <!-- Logo -->
           <a href="/">
             <div class="logo relative z-40 cursor-pointer font-bold text-white">
-              ASSESSMENT
+              PrimeIT | JD e Assessment
             </div>
           </a>
           <!-- Desktop Menu -->
           <div class="flex gap-8">
-            <div class="hidden md:flex">
+            <div>
               <ul class="menutop">
-                <a href="#"><li>Table</li></a>
+                <a href="https://github.com/stroligo/assessment"
+                  ><li>Github</li></a
+                >
               </ul>
             </div>
-            <!-- Botão Search -->
-            <div
-              class="hidden cursor-pointer items-center text-2xl text-white hover:text-orange md:flex"
-              @click="toggleSearch"
-            >
-              <SvgoSearch />
-            </div>
-          </div>
-
-          <!-- Botão Responsivo -->
-          <div
-            class="flex rotate-180 items-center text-3xl text-white md:hidden"
-            @click="toggleMenu"
-          >
-            <SvgoMenu v-if="!menuOpen" />
-            <SvgoClose v-if="menuOpen" />
-          </div>
-        </div>
-      </div>
-
-      <!-- Barra Search -->
-      <div
-        class="absolute left-0 top-0 z-40 h-[60px] w-full bg-blue transition-all duration-300 md:h-full"
-        :class="{
-          'opacity-1 h-full': searchOpen,
-          'invisible h-0 opacity-0': !searchOpen,
-        }"
-        v-show="searchOpen || searchOpen === false"
-      >
-        <div
-          class="container mx-auto flex h-full items-center gap-6 px-5 md:px-0"
-        >
-          <!-- InputSearch -->
-          <div class="relative w-full">
-            <div
-              class="absolute left-0 top-1/2 -translate-y-1/2 text-lg text-white"
-            >
-              <SvgoSearch />
-            </div>
-            <input
-              type="search"
-              placeholder="Buscar por..."
-              class="inputnavbar"
-            />
-          </div>
-          <!-- Controller -->
-          <div class="flex gap-2">
-            <!--  Botao de buscar -->
-            <UiButton class="large hidden md:flex">Buscar</UiButton>
-            <!-- Botao de Fechar -->
-            <uiIcon
-              custom="secondary large   text-base"
-              link="#"
-              @click="toggleSearch"
-              class="hidden md:flex"
-            >
-              <SvgoClose />
-            </uiIcon>
-            <uiIcon
-              custom="secondary small  text-base"
-              link="#"
-              @click="toggleSearch"
-              class="flex md:hidden"
-            >
-              <SvgoClose />
-            </uiIcon>
           </div>
         </div>
       </div>
@@ -98,92 +30,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      url_base: '',
-      isScrolled: false,
-      isScrollUp: false,
-      menuOpen: false,
-      searchOpen: false,
-      isSubMenuVisible: {
-        sobre: false,
-        trabalho: false,
-      },
-      scrollPos: 0,
-    };
-  },
-  methods: {
-    copiarLink(url) {
-      const inputTemporario = document.createElement('input');
-      inputTemporario.value = url;
-      document.body.appendChild(inputTemporario);
-      inputTemporario.select();
-      document.execCommand('copy');
-      document.body.removeChild(inputTemporario);
-      alert('Link copiado para a área de transferência!');
-    },
-    toggleMenu() {
-      console.log('Botão de hambúrguer clicado!');
-      this.menuOpen = !this.menuOpen;
-    },
-    toggleSearch() {
-      console.log('Botão de search clicado!');
-      this.searchOpen = !this.searchOpen;
-    },
-    toggleSubMenu(subMenu) {
-      console.log('Botão de submenu clicado!');
-      Object.keys(this.isSubMenuVisible).forEach((key) => {
-        if (key !== subMenu) {
-          this.isSubMenuVisible[key] = false;
-        }
-      });
-      this.isSubMenuVisible[subMenu] = !this.isSubMenuVisible[subMenu];
-    },
-    closeSubMenus() {
-      this.isSubMenuVisible.sobre = false;
-      this.isSubMenuVisible.trabalho = false;
-    },
-
-    handleScroll() {
-      this.isScrolled = window.scrollY > 100;
-      this.isScrollUp = window.scrollY < this.scrollPos;
-      this.scrollPos = window.scrollY;
-    },
-    checkScreenWidth() {
-      const screenWidth = window.innerWidth;
-      this.menuOpen = screenWidth >= 768;
-    },
-    handleOutsideClick(event) {
-      if (!this.$el.contains(event.target)) {
-        this.closeSubMenus();
-      }
-    },
-  },
-  mounted() {
-    this.scrollPos = window.scrollY;
-    this.url_base = window.location.href;
-    window.addEventListener('scroll', this.handleScroll);
-    this.checkScreenWidth();
-    window.addEventListener('resize', this.checkScreenWidth);
-    document.addEventListener('click', this.handleOutsideClick);
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
-    window.removeEventListener('resize', this.checkScreenWidth);
-    document.removeEventListener('click', this.handleOutsideClick);
-  },
-};
-</script>
-
 <style scoped>
-.scroll-on nav {
-  @apply -translate-y-[148px] transition-all duration-1000 ease-in-out;
-}
-.scroll-up nav {
-  @apply translate-y-0 transition-all duration-500 ease-in-out;
-}
 nav {
   @apply translate-y-0 transition-all duration-500 ease-in-out;
   .logo {

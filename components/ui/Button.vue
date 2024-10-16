@@ -43,6 +43,12 @@ button {
   &.secondary {
     @apply bg-blue-dark text-white hover:bg-blue;
   }
+  &.green {
+    @apply bg-primary text-white hover:bg-opacity-70;
+  }
+  &.zebra {
+    @apply bg-gray text-white hover:bg-gray-80;
+  }
   &.large {
     @apply px-6 py-4;
   }
