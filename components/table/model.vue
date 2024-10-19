@@ -313,6 +313,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 #filterarea {
   @apply max-w-full mb-10;
@@ -435,7 +436,4 @@ table {
     }
   }
 }
-
-/*
- */
 </style>
